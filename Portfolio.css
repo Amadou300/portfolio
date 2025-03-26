@@ -1,0 +1,424 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+section{
+    margin-bottom: 50px;
+    padding: 100px 0 50px;
+}
+header{
+  position: absolute;
+  top: 30px;
+    /* height: 150px; */
+    /* background-color: aqua; */
+    /* background-image: ; */
+    left: 0;
+    right: 0;
+    height: 150px;
+    width: 100%;
+}
+.containerheader{
+    width: 100%;
+    height:200px ;
+}
+.heading{
+    background-color: orange;
+    /* height: 250px; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    /* margin: 30px 30px; */
+}
+.ic {
+    margin-left: 15px;
+}
+header a{
+    /* float: right; */
+    margin-top: 15px;
+    background-color: orange;
+    text-decoration: none;
+    color: #fff;
+    /* border: 1px solid black; */
+    /* margin: 15 15px; */
+}
+header{
+    color: #fff;
+    height: 200px;
+
+}
+.info{
+    display: flex;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* margin-top: 70px; */
+    justify-content: center;
+    align-items: center;
+}
+.info1{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.intro-section{
+    padding-top: 200px;
+    height: 400px;
+   
+    background-image: url(images/image\ portfolio.jpg);
+    
+    background-size: cover;
+    z-index: 1;
+   
+
+}
+/* contenair de l'image et des informations */
+.containersection{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 100px;
+}
+.intro{
+    height: 350px ;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    /* margin-left: 250px; */
+    /* margin-left:px; */
+}
+
+
+.downlad-btn{
+    padding: 15px 30px;
+    border-radius: 4px;
+    float: right;
+    margin-top: 30px;
+    box-shadow: inset 0 0px 4px rgba(0, 0, 0, .3);
+    background: #FFAD01;
+    color: #fff;
+    margin-right: 70px;
+    transition: all .2sease;
+    border: 1px solid white;
+}
+.font-yellow{
+    color: orangered;
+}
+.info2 ul{
+    list-style: none;
+}
+
+
+/* css pour image */
+.profile-img> img{
+border-radius: 100px;
+width: 80%;
+}
+.profile-img{
+    margin-bottom: 70px;
+    margin-top: 25px;
+    height:150px ;
+}
+/* css pour image */
+
+
+.info2{
+    margin-bottom: 100px;
+}
+
+.divpresentation h2,h4{
+    padding-left: 35px;
+    font-size: 1.5em;
+}
+
+    
+
+
+
+    /* reseaux sociaux */
+
+.social-icons{
+    display: flex;
+    justify-content:space-around ;
+}
+
+.social-icons a :hover{
+    background-color: orange;
+}
+.social-icons >li>a{
+   height: 50px;
+   border-radius: 25px;
+   color: gray;
+}
+/* reseaux sociaux */
+
+
+/* portfolio  */
+
+
+.apropos{
+    height: 200px;
+}
+.apropos{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.work{
+    margin-right: 200px;
+}
+.work h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1,8em;
+}
+.work b{
+    font-weight: 700px;
+}
+.apropos li{
+    list-style: none;
+}
+.propos a{
+    color: gray;
+}
+.menu{
+    display: flex;
+    gap: 10px;
+}
+.menu a{
+    color: gray;
+    text-decoration: none;
+}
+#h{
+    color: gray;
+}
+.or a{
+    color: orange;
+}
+.all{
+  margin-right:50px  ;
+}
+/* portfolio  */
+
+/* About  */
+.contenairabout{
+    height: 400px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+margin-left: 150px;
+}
+.about h5 {
+color: gray;
+padding-left: 25px;
+}
+.ecriture p{
+    color: gray;
+   /* font-size: 1.5em; */
+}
+.portfolioContainer{
+    height: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.portfolioContainer {
+    margin: 0;
+}
+.portfolioContainer a img{
+  width: 90%;
+    
+}
+/* about  */
+
+/* css violet  */
+.violet{
+    height: 680px;
+    /* background-color: rgb(58, 15, 58); */
+    color: #fff;
+    background-color: rgb(24, 4, 43);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+.liste ul{
+  padding-left: 20px;
+}
+
+
+.bloc1 h4{
+padding-right: 20px;
+}
+.partie-gauche{
+    margin-left: 150px;
+}
+.partie-droite{
+    margin-right: 50px;
+}
+
+.partie-right{
+    margin-right: 50px;
+}
+.ecriture{
+margin-right: 50px;
+}
+.about h3{
+    padding-left: 20px ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1,8em;
+}
+.about b{
+    font-weight: 800;
+}
+.about{
+    margin-left: 100px;
+}
+
+
+.p1{
+    display: block;
+    /* height: ; */
+    height: 800px;
+}
+.font-yellow{
+    color: orange;
+    font-size: 1em;
+}
+.font-black{
+     
+        color: #999;
+    }
+    .ecriture h6{
+        font-size: 0.9em;
+    letter-spacing: 1px;
+    }
+    .ecriture h4{
+        font-size: 1.3em;
+        color: rgb(65, 64, 64);
+        /* padding-right: 50px; */
+    }
+    .ecriture b{
+        /* padding-right: 100px;
+         */
+         margin-right: 25px;
+         font-weight: 600;
+         /* color: rgb(65, 64, 64); */
+    }
+    .ecriture h3{
+        color:rgb(65, 64, 64) ;
+    }
+    .education{
+        height: 850px;
+    }
+
+
+    /* section orange  */
+    .orange{
+        height: 120px;
+        background-image: url(images/slider-2-1920x600.jpg.webp);
+        background-size: cover;
+        margin-bottom: 0;
+        /* display: flex; */
+        color: #fff;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content:space-around ;
+
+    }
+    .or1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+    }
+    .or1 h1{
+        font-weight: 1000;
+        font-size: 3em;
+       /* margin-bottom:  200px; */
+    }
+    /* section orange  */
+    
+    /* section footer  */
+    footer{
+        background-color: rgb(24, 4, 43);
+        height: 70px;
+        color: #999;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    footer p{
+        text-align: center;
+    }
+    /* section footer  */
+
+
+    /* les medias queries */
+
+    /* pour la section education  */
+@media screen and (max-width: 768px) {
+    .education {
+        height: 1300px;
+    }
+
+}
+
+/* pour la section orange  */
+@media screen and (max-width:768px){
+   
+    
+}
+/* pour la section header  */
+
+
+
+@media screen  and (max-width:768px){
+    .heading{
+        display: block;
+        margin-bottom: 500px;
+    }
+    
+}
+@media  screen and (max-width:768px) {
+    .containerheader{
+       /* height: 500px; */
+       margin-bottom: 500px;
+       
+    }
+    .violet{
+        height: 1150px;
+    }
+    .section{
+        margin-bottom: 30px;
+    }
+    .portfolioContainer{
+        /* height:5000x ; */
+        display:none ;
+        
+    }
+
+    
+}
+
+
+    
+
+
+
+
+
+
+
+    
+
+
